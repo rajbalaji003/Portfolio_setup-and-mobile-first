@@ -79,9 +79,8 @@ body {
     padding: 0;
   }
 
-  .connect-me {
+  .connect-two {
     padding-top: 12px;
-    padding-bottom: 15px;
     font-weight: 500;
     font-size: 16px;
     line-height: 24px;
@@ -169,5 +168,62 @@ body {
     text-align: center;
     letter-spacing: 0.03em;
     color: var(--primary-color);
+    background-color: transparent;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 17px;
+    line-height: 24px;
+  }
+
+  .about-content {
+    padding: 114px 16px 16px 16px;
+    margin: 114px 24px 0 24px;
+    background-color: #fff;
+    border-top-right-radius: 20%;
+  }
+
+  .about-content h2 {
+    font-style: normal;
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 52px;
+    display: flex;
+    align-items: center;
+    color: #172b4d;
+  }
+
+  .modal {
+    margin: 24px 0;
+  }
+
+  .modal-items {
+    list-style-type: none;
+    width: 100%;
+    padding-left: 0;
+    padding-right: 10px;
+  }
+
+  /* .modal-item {
+  } */
+
+  .item-one {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    height: 72px;
+  }
+
+  .item {
+    display: flex;
+    align-items: center;
+    gap: 5%;
+    background-color: var(--general-color);
+    padding: 15px;
+    border-radius: 8px;
+    margin: -5px;
+  }
+
+  hr {
+    color: #7a869a;
   }
 }
