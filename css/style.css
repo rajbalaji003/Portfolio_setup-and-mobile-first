@@ -39,7 +39,7 @@ body {
   }
 
   .container {
-    background-image: url(/img/header-shapes\ mobile.png);
+    background-image: url(/img/header-shapes_bg.png);
     background-repeat: no-repeat;
     padding: 0 24px;
     height: 90vh;
