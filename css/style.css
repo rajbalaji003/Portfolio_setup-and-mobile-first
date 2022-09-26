@@ -107,14 +107,14 @@ body {
     margin-top: 12px !important;
   }
 
-  .categories {
+     .categories {
     display: flex;
     align-items: center;
     gap: 8px;
-    padding: 0;
-  }
-
-  .categories li {
+    padding: 0; 
+  }     
+  
+   .categories li {
     list-style-type: none;
     background: #ebebff;
     border-radius: 8px;
