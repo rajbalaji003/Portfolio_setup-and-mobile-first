@@ -36,6 +36,11 @@ body {
 
   .logo {
     color: var(--primary-color);
+    text-decoration: none;
+  }
+
+  .connect-me {
+    text-decoration: none;
   }
 
   .container {

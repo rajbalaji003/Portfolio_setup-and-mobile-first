@@ -28,7 +28,7 @@
     </header>
 
     <main>
-      <div class="container">
+      <section class="container">
         <div class="content">
           <h1 class="my-name">
             I’m Mariane <br />
@@ -50,7 +50,7 @@
           <li><img src="/img/social icons/Linkedin_icon.svg" alt="" /></li>
           <li><img src="/img/social icons/medium_icon.svg" alt="" /></li>
         </ul>
-      </div>
+      </section>
 
       <section id="works">
         <div class="work-card">
@@ -223,7 +223,11 @@
         <div class="contact-container">
           <div class="contact-desc">
             <h2>Contact me</h2>
-            <p>If you have an application you are interested in developing, a feature that you need built or a project that needs coding. I’d love to help with it </p>
+            <p>
+              If you have an application you are interested in developing, a
+              feature that you need built or a project that needs coding. I’d
+              love to help with it
+            </p>
           </div>
           <div class="form">
             <form
@@ -238,35 +242,29 @@
                   type="text"
                   name="name"
                   id="full-name"
-                  required=""
                   placeholder="Raj"
                   maxlength="30"
+                  required
                 />
 
                 <input
                   type="email"
                   name="_replyto"
                   id="email-address"
-                  required=""
                   placeholder="rajbalaji003@gmail.com"
                   maxlength="30"
+                  required
                 />
 
-                <textarea>
-                  rows="5"
+                <textarea
                   name="message"
+                  placeholder="Enter your message"
                   id="message"
-                  placeholder="Write your message"
-                  required=""
                   maxlength="500"
-                  </textarea>
-                <input
-                  type="hidden"
-                  name="_subject"
-                  id="email-subject"
-                  value="Contact Form Submission"
-                  maxlength="30"
-                />
+                  required
+                  rows="5"
+                >
+                </textarea>
               </fieldset>
               <input class="btn" type="submit" value="Get in touch" />
             </form>
