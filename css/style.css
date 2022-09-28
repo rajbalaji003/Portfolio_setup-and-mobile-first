@@ -256,18 +256,7 @@ body {
     background-position-x: right;
   }
 
-  .contact-desc {
-    font-style: normal;
-    font-weight: 700;
-    font-size: 40px;
-    line-height: 52px;
-    align-items: center;
-    text-align: center;
-    color: #ffffff;
-  }
-
-  .contact-desc {
-    font-family: "Poppins";
+   .contact-desc { 
     font-style: normal;
     font-weight: 400;
     font-size: 20px;
@@ -280,7 +269,7 @@ body {
     border: none;
   }
 
-  .form{
+  .form {
     padding-top: 20px;
   }
 
